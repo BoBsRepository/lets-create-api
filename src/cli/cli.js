@@ -40,7 +40,7 @@ const runCLI = async () => {
     })
     const { github } = { ...githubResponse }
     if (github) {
-      handleGitHubFlow(repoName)
+      await handleGitHubFlow(repoName)
     }
     greetings(repoName)
   } else if (backend === 'Node.js with Express' && database === 'MongoDB') {
@@ -53,7 +53,7 @@ const runCLI = async () => {
     })
     const { github } = { ...githubResponse }
     if (github) {
-      handleGitHubFlow(repoName)
+      await handleGitHubFlow(repoName)
     }
     greetings(repoName)
   } else if (backend === 'Go Lang' && database === 'PostgreSQL') {
