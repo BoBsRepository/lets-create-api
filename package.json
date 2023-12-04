@@ -1,6 +1,6 @@
 {
   "name": "lets-create-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An awesome CLI tool designed to accelerate the creation of Backend projects, making it effortless to build RESTful APIs with various backend and database technology combinations.",
   "main": "index.js",
   "bin": {
@@ -33,8 +33,5 @@
   "dependencies": {
     "colorette": "^2.0.20",
     "enquirer": "^2.4.1"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
 }
