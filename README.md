@@ -9,7 +9,8 @@
   <h3 align="center">Lets Create API</h3>
 
   <p align="center">
-    An awesome CLI tool designed to accelerate the creation of Backend projects, making it effortless to build RESTful APIs with various backend and database technology combinations.
+    Welcome to the CLI For Create API — your go-to tool for rapidly setting up production-ready API projects with ease! Whether you're a seasoned developer or just getting started, our CLI provides a streamlined 
+    experience for creating RESTful APIs using various backend technologies and database combinations.
     <br />
     <a href="https://github.com/BoBsRepository/lets-create-api"><strong>Explore the docs »</strong></a>
     <br />
