@@ -7,6 +7,10 @@
   </a>
 
   <h3 align="center">Lets Create API</h3>
+  
+  ```bash
+   npx lets-create-api <file-name>
+  ```
 
   <p align="center">
     Welcome to the CLI For Create API — your go-to tool for rapidly setting up production-ready API projects with ease! Whether you're a seasoned developer or just getting started, our CLI provides a streamlined 
