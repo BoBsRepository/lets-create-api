@@ -11,7 +11,7 @@ const handleGitHubFlow = async (repoName) => {
   const githubRepoLink = repoLinkResponse.repoLink
   const removeOriginCommand = `cd ${repoName} && git remote remove origin`
   const changeOriginCommand = `cd ${repoName} && git remote add origin ${githubRepoLink}`
-  const pushToNewRepoCommand = `cd ${repoName} && git push -u origin master`
+  const pushToNewRepoCommand = `cd ${repoName} && git push -u origin main`
 
   const removeOrigin = runCommand(removeOriginCommand)
   if (!removeOrigin) process.exit(-1)
