@@ -50,7 +50,58 @@
   </ol>
 </details>
 
+## 🛠️ Prerequisites
 
+- [Node.js](https://nodejs.org/) installed on your machine 🟩
+- [Git](https://git-scm.com/) installed on your machine 🐙
+
+## ⚙️ Installation
+
+### 1. Run This Command:
+
+```bash
+   npx lets-create-api <file-name>
+```
+ <img src="https://res.cloudinary.com/dt0hbetuq/image/upload/v1701715229/rtl3x5ct8ak7u4zc6rv6.jpg" alt="Logo" width="560" height="140">
+ <p>🚀 This command will initialize your API project with a specific file name.</p>
+ <br/>
+ 
+### 2. Choose your tech stack:
+   
+ <img src="https://res.cloudinary.com/dt0hbetuq/image/upload/v1701715254/jblqytt9sjmyetudjqhy.jpg" alt="Logo" width="590" height="150">
+ <p>⚙️ Select your preferred technology stack to tailor your API project.</p>
+ <br/>
+
+### 3. Choose your Database:
+   
+ <img src="https://res.cloudinary.com/dt0hbetuq/image/upload/v1701715264/b3ilvo4zjftdrasjigrh.jpg" alt="Logo" width="590" height="150"> 
+ <p>🛢️ Pick the database technology that suits your project needs.</p>
+ <br/>
+ 
+### 4. This Will Create A Folder For Your Template:
+   
+ <img src="https://res.cloudinary.com/dt0hbetuq/image/upload/v1701715274/jolv47jd3vz3cdd86aoi.jpg" alt="Logo" width="590" height="260">  
+ <p>📁 The CLI will create a dedicated folder for your selected template.</p>
+ <br/>
+
+### 5. If you want to push your code in github make it "y":
+   
+ <img src="https://res.cloudinary.com/dt0hbetuq/image/upload/v1701715282/oa8iwsm4kaxhsbhkecio.jpg" alt="Logo" width="590" height="150">  
+ <p>💻 If you wish to push your code to GitHub, type "y" and follow the prompts.</p>
+ <br/>
+ 
+ ### 6. Now Create an empty Repo and paste link here :
+   
+ <img src="https://res.cloudinary.com/dt0hbetuq/image/upload/v1701715325/glndqajvqg3nf5nv5gha.jpg" alt="Logo" width="590" height="150"> 
+ <p>🔗 Provide the link to the empty repository you created on GitHub.</p>
+ <br/>
+ 
+### 7. Now It will push all code in your repo and you are all set:
+   
+ <img src="https://res.cloudinary.com/dt0hbetuq/image/upload/v1701715360/isv6qvzdhf7n2ekdfttu.jpg" alt="Logo" width="590" height="250"> 
+ <p>✅ The CLI will push all code to your GitHub repository, and your API project is ready to go!</p>
+ <br/>
+ 
 ## About The Project
 
 
@@ -68,3 +119,7 @@ Creating APIs has never been this flexible and straightforward! The CLI For Crea
 Of course, This template may not cover all project needs, as your requirements may vary. More updates will be added in the future. Feel free to suggest changes by forking this repo, creating a pull request, or opening an issue. Thanks to all contributors who have helped enhance this template!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+ 
+ 
+ 
