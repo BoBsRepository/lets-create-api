@@ -15,7 +15,7 @@
     <a href="https://github.com/BoBsRepository/lets-create-api"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://create-expresss-ts.vercel.app">View Demo</a>
+    <a href="https://www.npmjs.com/package/lets-create-api">View Demo</a>
     ·
     <a href="https://github.com/BoBsRepository/lets-create-api/issues">Report Bug</a>
     ·
