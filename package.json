@@ -2,7 +2,7 @@
   "name": "lets-create-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "indexAn awesome CLI tool designed to accelerate the creation of Backend projects, making it effortless to build RESTful APIs with various backend and database technology combinations.",
   "bin": {
     "lets-create-api": "index.js"
   },
