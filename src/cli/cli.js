@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
-const { prompt } = require('enquirer')
-const { green, magenta } = require('colorette')
-const { handleGitHubFlow } = require('../utils/githubPush')
-const { cloneRepo } = require('../utils/githubClone')
-const { config } = require('../config/config')
-const { greetings } = require('../utils/greetings')
+import { prompt } from 'enquirer'
+import { green, magenta } from 'colorette'
+import { handleGitHubFlow } from '../utils/githubPush'
+import { cloneRepo } from '../utils/githubClone'
+import { config } from '../config/config'
+import { greetings } from '../utils/greetings'
 
 const repoName = process.argv[2]
 
@@ -91,4 +91,4 @@ const runCLI = async () => {
   }
 }
 
-module.exports = { runCLI }
+export default { runCLI }

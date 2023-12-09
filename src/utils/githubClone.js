@@ -1,5 +1,5 @@
-const { blue, green } = require('colorette')
-const { runCommand } = require('./utils')
+import { blue, green } from 'colorette'
+import { runCommand } from './utils'
 
 const cloneRepo = async (repoName, template) => {
   const gitCheckOutCommand = `git clone ${template} ${repoName}`
@@ -16,4 +16,4 @@ const cloneRepo = async (repoName, template) => {
   if (!installedDeps) process.exit(-1)
 }
 
-module.exports = { cloneRepo }
+export default { cloneRepo }

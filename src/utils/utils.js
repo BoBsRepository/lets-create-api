@@ -1,5 +1,5 @@
-const { execSync } = require('child_process')
-const { red, yellow } = require('colorette')
+import { execSync } from 'child_process'
+import { red, yellow } from 'colorette'
 
 const runCommand = (command) => {
   try {
@@ -11,4 +11,4 @@ const runCommand = (command) => {
   return true
 }
 
-module.exports = { runCommand }
+export default { runCommand }

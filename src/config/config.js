@@ -3,4 +3,4 @@ const config = {
   ExpressJSMongo: 'https://github.com/Puskar-Roy/myProfile-backend.git',
 }
 
-module.exports = { config }
+export default { config }

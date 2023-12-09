@@ -1,6 +1,6 @@
-const { prompt } = require('enquirer')
-const { runCommand } = require('./utils')
-const { greetings } = require('./greetings')
+import { prompt } from 'enquirer'
+import { runCommand } from './utils'
+import { greetings } from './greetings'
 
 const handleGitHubFlow = async (repoName) => {
   const repoLinkResponse = await prompt({
@@ -27,4 +27,4 @@ const handleGitHubFlow = async (repoName) => {
   greetings(repoName)
 }
 
-module.exports = { handleGitHubFlow }
+export default { handleGitHubFlow }

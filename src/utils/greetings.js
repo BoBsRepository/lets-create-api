@@ -1,4 +1,4 @@
-const { yellow, green } = require('colorette')
+import { yellow, green } from 'colorette'
 
 const greetings = (repoName) => {
   console.log(green(`\n  💻 Happy Coading - BoBsRepository☠️`))
@@ -6,4 +6,4 @@ const greetings = (repoName) => {
   console.log(yellow(`  ⌨️  cd ${repoName} && npm run dev`))
 }
 
-module.exports = { greetings }
+export default { greetings }
