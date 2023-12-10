@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "lint-fix": "eslint --fix ."
+    "lint-fix": "eslint --fix .",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
