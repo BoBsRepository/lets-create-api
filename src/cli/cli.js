@@ -77,9 +77,18 @@ const runCLI = async () => {
       'We apologize for any inconvenience! 🙏 Exciting news awaits as we work on bringing This compatibility. Stay tuned for the upcoming release. 🚀🌟#ComingSoon',
     )
   } else if (backend === 'Go Lang' && database === 'MongoDB') {
-    console.log(
-      'We apologize for any inconvenience! 🙏 Exciting news awaits as we work on bringing This compatibility. Stay tuned for the upcoming release. 🚀🌟#ComingSoon',
-    )
+    cloneRepo(repoName, config.GoLangMongo)
+    const githubResponse = await prompt({
+      type: 'confirm',
+      name: 'github',
+      message: 'Do you want to push to a new GitHub repository?',
+      initial: true,
+    })
+    const { github } = { ...githubResponse }
+    if (github) {
+      await handleGitHubFlow(repoName)
+    }
+    greetings(repoName)
   } else if (backend === 'Go Lang' && database === 'MySQL') {
     console.log(
       'We apologize for any inconvenience! 🙏 Exciting news awaits as we work on bringing This compatibility. Stay tuned for the upcoming release. 🚀🌟#ComingSoon',
