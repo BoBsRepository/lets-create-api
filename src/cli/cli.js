@@ -9,6 +9,7 @@ const { greetings } = require('../utils/greetings')
 
 const repoName = process.argv[2]
 
+// eslint-disable-next-line consistent-return
 const runCLI = async () => {
   const backendResponse = await prompt({
     type: 'select',
@@ -36,7 +37,7 @@ const runCLI = async () => {
       type: 'confirm',
       name: 'github',
       message: 'Do you want to push to a new GitHub repository?',
-      initial: true,
+      initial: false,
     })
     const { github } = { ...githubResponse }
     if (github) {

@@ -1,6 +1,5 @@
 const { prompt } = require('enquirer')
 const { runCommand } = require('./utils')
-const { greetings } = require('./greetings')
 
 const handleGitHubFlow = async (repoName) => {
   const repoLinkResponse = await prompt({
@@ -24,7 +23,6 @@ const handleGitHubFlow = async (repoName) => {
   const pushToNewRepo = runCommand(pushToNewRepoCommand)
   if (!pushToNewRepo) process.exit(-1)
   console.log(githubRepoLink)
-  greetings(repoName)
 }
 
 module.exports = { handleGitHubFlow }
